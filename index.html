@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Just In Time Lawn Care | Leesville & DeRidder, LA</title>
+  <meta name="description" content="Just In Time Lawn Care offers mowing, edging, weed eating, cleanup, and blowing services in Leesville and DeRidder, Louisiana." />
+  <style>
+    :root {
+      --green: #5fa20a;
+      --dark-green: #1d4d0f;
+      --black: #0b0b0b;
+      --white: #ffffff;
+      --light: #f5f8f0;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: var(--light);
+      color: var(--black);
+      line-height: 1.5;
+    }
+    header {
+      background: linear-gradient(135deg, #050505, #1b3d08);
+      color: var(--white);
+      padding: 42px 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: clamp(2.2rem, 6vw, 4.6rem);
+      color: #8bd11c;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      font-weight: 900;
+    }
+    header h2 {
+      margin: 5px 0 18px;
+      font-size: clamp(1.2rem, 3vw, 2rem);
+      letter-spacing: 5px;
+      text-transform: uppercase;
+    }
+    .tagline {
+      font-weight: bold;
+      letter-spacing: 1px;
+      color: #dff7c0;
+      margin-top: 10px;
+    }
+    .cta {
+      display: inline-block;
+      margin-top: 18px;
+      background: var(--green);
+      color: var(--white);
+      padding: 14px 24px;
+      text-decoration: none;
+      border-radius: 999px;
+      font-weight: 800;
+      box-shadow: 0 6px 16px rgba(0,0,0,.25);
+    }
+    .container { width: min(1100px, 92%); margin: auto; }
+    section { padding: 44px 0; }
+    .card {
+      background: var(--white);
+      border-radius: 18px;
+      padding: 24px;
+      box-shadow: 0 6px 18px rgba(0,0,0,.08);
+      border: 1px solid #d8e6cf;
+    }
+    .grid { display: grid; gap: 18px; }
+    .grid-3 { grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); }
+    .grid-2 { grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); }
+    h2.section-title {
+      text-align: center;
+      font-size: clamp(1.8rem, 4vw, 2.6rem);
+      margin: 0 0 24px;
+      color: var(--dark-green);
+      text-transform: uppercase;
+    }
+    .service { text-align: center; font-weight: bold; }
+    .service span { display: block; font-size: 2.2rem; margin-bottom: 6px; }
+    table { width: 100%; border-collapse: collapse; border-radius: 12px; overflow: hidden; background: var(--white); font-size: .96rem; }
+    th { background: var(--dark-green); color: var(--white); text-align: left; padding: 12px; }
+    td { padding: 10px 12px; border-bottom: 1px solid #dbe8d1; }
+    tr:last-child td { border-bottom: none; }
+    .price { font-weight: bold; color: var(--dark-green); white-space: nowrap; }
+    ul { margin: 0; padding-left: 20px; }
+    li { margin: 7px 0; }
+    .highlight { background: #e7f5d2; border-left: 6px solid var(--green); }
+    .flyer { max-width: 100%; border-radius: 16px; box-shadow: 0 8px 22px rgba(0,0,0,.2); display: block; margin: 0 auto; }
+    .contact { background: var(--black); color: var(--white); text-align: center; }
+    .contact h2 { color: #8bd11c; }
+    .contact a { color: var(--white); font-weight: bold; }
+    footer { background: #061204; color: #dff7c0; text-align: center; padding: 18px; font-size: .9rem; }
+    @media (max-width: 700px) {
+      header { padding: 34px 14px; }
+      .card { padding: 18px; }
+      table { font-size: .86rem; }
+      td, th { padding: 8px; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>Just In Time</h1>
+      <h2>Lawn Care</h2>
+      <p><strong>Justin Ruks</strong> | Cell: <strong>(337) 401-0456</strong></p>
+      <p class="tagline">Quality Work. Reliable Service. Every Time.</p>
+      <a class="cta" href="tel:3374010456">Call for a Free Quote</a>
+    </div>
+  </header>
+
+  <section><div class="container">
+    <h2 class="section-title">Our Services</h2>
+    <div class="grid grid-3">
+      <div class="card service"><span>🌱</span>Mowing</div>
+      <div class="card service"><span>✂️</span>Edging</div>
+      <div class="card service"><span>🌿</span>Weed Eating</div>
+      <div class="card service"><span>🍃</span>Cleanup</div>
+      <div class="card service"><span>💨</span>Blowing</div>
+      <div class="card service"><span>🏡</span>Residential Lawn Care</div>
+    </div>
+  </div></section>
+
+  <section><div class="container">
+    <h2 class="section-title">Pricing</h2>
+    <div class="grid grid-3">
+      <div class="card"><h3>Front Yard Pricing</h3><table>
+        <tr><th>Service</th><th>Price</th></tr>
+        <tr><td>Small Front Yard, Non-Fenced</td><td class="price">$30 - $40</td></tr>
+        <tr><td>Small Front Yard, Fenced</td><td class="price">$35 - $50</td></tr>
+        <tr><td>Medium Front Yard, Non-Fenced</td><td class="price">$40 - $55</td></tr>
+        <tr><td>Medium Front Yard, Fenced</td><td class="price">$50 - $65</td></tr>
+      </table></div>
+      <div class="card"><h3>Front & Back Yard Pricing</h3><table>
+        <tr><th>Service</th><th>Price</th></tr>
+        <tr><td>Small Lot, Non-Fenced</td><td class="price">$45 - $60</td></tr>
+        <tr><td>Small Lot, Fenced</td><td class="price">$55 - $75</td></tr>
+        <tr><td>Medium Lot, Non-Fenced</td><td class="price">$60 - $85</td></tr>
+        <tr><td>Medium Lot, Fenced</td><td class="price">$75 - $100</td></tr>
+      </table></div>
+      <div class="card"><h3>Acreage Pricing</h3><table>
+        <tr><th>Service</th><th>Price</th></tr>
+        <tr><td>1/2 Acre</td><td class="price">$75 - $120</td></tr>
+        <tr><td>1 Acre</td><td class="price">$120 - $180</td></tr>
+        <tr><td>2+ Acres</td><td class="price">Custom Quote</td></tr>
+      </table></div>
+    </div>
+  </div></section>
+
+  <section><div class="container grid grid-2">
+    <div class="card highlight"><h3>What’s Included</h3><ul>
+      <li>Mowing</li><li>Weed eating/trimming</li><li>Blowing driveway, sidewalks, and porch</li><li>Basic edging</li><li>Grass clipping cleanup</li>
+    </ul></div>
+    <div class="card"><h3>Add-On Services</h3><ul>
+      <li>Edging driveways and sidewalks: <strong>$10 - $25</strong></li><li>Flower bed cleanup: <strong>$20 - $75</strong></li><li>Bush trimming: <strong>$25 - $100</strong></li><li>Leaf removal: <strong>$50 - $200</strong></li><li>Grass bagging: <strong>$10 - $20</strong></li>
+    </ul></div>
+    <div class="card"><h3>Weekly / Biweekly Rates</h3><ul>
+      <li>Weekly service: <strong>5% - 10% discount</strong></li><li>Biweekly service: <strong>Standard rate</strong></li><li>One-time cut: <strong>Higher pricing applies</strong></li>
+    </ul></div>
+    <div class="card"><h3>Overgrowth Fees</h3><ul>
+      <li>Mild overgrowth: <strong>+$15 - $25</strong></li><li>Heavy overgrowth: <strong>+$30 - $75</strong></li><li>Extreme cleanup: <strong>Custom quote</strong></li>
+    </ul></div>
+    <div class="card"><h3>Military Discount</h3><ul>
+      <li>Active duty: <strong>5% - 10% off</strong></li><li>Veterans: <strong>5% off</strong></li>
+    </ul></div>
+    <div class="card"><h3>Notes & Policies</h3><ul>
+      <li>Payment due upon completion</li><li>Weather delays may require rescheduling</li><li>Additional charges may apply for excessive dog waste</li><li>Customer must ensure gate access for fenced yards</li>
+    </ul></div>
+  </div></section>
+
+  <section><div class="container">
+    <h2 class="section-title">Pricing Flyer</h2>
+    <img class="flyer" src="lawn-care-flyer.png" alt="Just In Time Lawn Care pricing flyer">
+  </div></section>
+
+  <section class="contact"><div class="container">
+    <h2>Ready for a clean cut?</h2>
+    <p>Serving Leesville, DeRidder, and surrounding areas.</p>
+    <p><strong>Call or text Justin Ruks:</strong> <a href="tel:3374010456">(337) 401-0456</a></p>
+    <a class="cta" href="tel:3374010456">Call Now</a>
+  </div></section>
+
+  <footer>© 2026 Just In Time Lawn Care | Just in time. Every time.</footer>
+</body>
+</html>
